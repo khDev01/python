@@ -1,0 +1,7 @@
+/Flask/Lib
+/Flask/__pycache__
+/Flask/Scripts
+*.cfg
+
+# Temporary
+/database
