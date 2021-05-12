@@ -2,6 +2,7 @@
 /Flask/__pycache__
 /Flask/Scripts
 *.cfg
+queryTable.py
 
 # Temporary
 /database
