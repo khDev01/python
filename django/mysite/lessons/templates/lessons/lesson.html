@@ -1,12 +1,11 @@
 {% extends "layout.html" %}
 
 {% block mybody%}
-<h1>Lesson {{ lessonNumber }} </h1>
 
-
+lesson {{ lessonNumber }}
 {{ data }}
 
-<table  border="1" cellpadding="5" cellspacing="5">
+<table border="1" cellpadding="5" cellspacing="5">
 {% for row in data %}
     <tr>
     {% for d in row %}

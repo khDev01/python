@@ -4,6 +4,8 @@ import sys
 
 app = Flask(__name__)
 
+debug = True
+
 @app.route('/')
 def index():
    return render_template("index.html", name=request.args.get("name", "secondArg_default value"))
@@ -29,8 +31,9 @@ def lesson(lessonNumber):
         searchString = "SELECT * FROM BOOK1 WHERE Lesson={}".format(TheNumber)
         cur.execute(searchString)
         rows = cur.fetchall()
-        for row in rows:
-            print(row, file=sys.stderr)
+        # Test
+        # for row in rows:
+        #     print(row, file=sys.stderr)
         return rows
 
     def main():

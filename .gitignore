@@ -3,6 +3,11 @@
 /Flask/Scripts
 *.cfg
 queryTable.py
-
+/django/Lib/site-packages
+/django/mysite/lessons/__pycache__
+/django/mysite/lessons/migrations
+*.db
+/django/Scripts
+/django/mysite/mysite/__pycache__
 # Temporary
 /database
